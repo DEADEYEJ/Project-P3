@@ -28,7 +28,7 @@ test_loader = DataLoader(
     shuffle=False
 )
 
-# Opret AlexNet-modellen
+# Opret CNN-modellen
 class Net(nn.Module):
     def __init__(self, num_classes):
         super().__init__()
